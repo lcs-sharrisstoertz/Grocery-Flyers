@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		266F6CBE2D515A59004800B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266F6CB82D515A59004800B7 /* Preview Assets.xcassets */; };
+		266F6CBF2D515A59004800B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266F6CBA2D515A59004800B7 /* Assets.xcassets */; };
+		266F6CC02D515A59004800B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CBB2D515A59004800B7 /* ContentView.swift */; };
+		266F6CC12D515A59004800B7 /* Grocery_FlyersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CBC2D515A59004800B7 /* Grocery_FlyersApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		266F6CA72D5159B8004800B7 /* Grocery Flyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Flyers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266F6CB82D515A59004800B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		266F6CBA2D515A59004800B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266F6CBB2D515A59004800B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		266F6CBC2D515A59004800B7 /* Grocery_FlyersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_FlyersApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		266F6CA92D5159B8004800B7 /* Grocery Flyers */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Grocery Flyers";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		266F6CA42D5159B8004800B7 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		266F6C9E2D5159B8004800B7 = {
 			isa = PBXGroup;
 			children = (
-				266F6CA92D5159B8004800B7 /* Grocery Flyers */,
+				266F6CBD2D515A59004800B7 /* Grocery Flyers */,
 				266F6CA82D5159B8004800B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,41 @@
 				266F6CA72D5159B8004800B7 /* Grocery Flyers.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		266F6CB92D515A59004800B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				266F6CB82D515A59004800B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		266F6CBD2D515A59004800B7 /* Grocery Flyers */ = {
+			isa = PBXGroup;
+			children = (
+				266F6CBC2D515A59004800B7 /* Grocery_FlyersApp.swift */,
+				266F6CC32D515A6D004800B7 /* Models */,
+				266F6CC22D515A62004800B7 /* Views */,
+				266F6CB92D515A59004800B7 /* Preview Content */,
+				266F6CBA2D515A59004800B7 /* Assets.xcassets */,
+			);
+			path = "Grocery Flyers";
+			sourceTree = "<group>";
+		};
+		266F6CC22D515A62004800B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				266F6CBB2D515A59004800B7 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		266F6CC32D515A6D004800B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +97,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				266F6CA92D5159B8004800B7 /* Grocery Flyers */,
 			);
 			name = "Grocery Flyers";
 			packageProductDependencies = (
@@ -109,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266F6CBE2D515A59004800B7 /* Preview Assets.xcassets in Resources */,
+				266F6CBF2D515A59004800B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266F6CC02D515A59004800B7 /* ContentView.swift in Sources */,
+				266F6CC12D515A59004800B7 /* Grocery_FlyersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
