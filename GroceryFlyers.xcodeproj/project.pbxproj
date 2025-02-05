@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		266F6CBE2D515A59004800B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266F6CB82D515A59004800B7 /* Preview Assets.xcassets */; };
 		266F6CBF2D515A59004800B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266F6CBA2D515A59004800B7 /* Assets.xcassets */; };
-		266F6CC02D515A59004800B7 /* DepartmentsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CBB2D515A59004800B7 /* DepartmentsDetailsView.swift */; };
 		266F6CC12D515A59004800B7 /* GroceryFlyersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CBC2D515A59004800B7 /* GroceryFlyersApp.swift */; };
 		266F6CC72D515D9E004800B7 /* DepartmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CC62D515D9E004800B7 /* DepartmentsListView.swift */; };
 		266F6CC92D53B2B8004800B7 /* Flyers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CC82D53B2B8004800B7 /* Flyers.swift */; };
+		266F6CCB2D53B84B004800B7 /* DepartmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F6CCA2D53B84B004800B7 /* DepartmentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		266F6CA72D5159B8004800B7 /* Grocery Flyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Flyers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		266F6CB82D515A59004800B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		266F6CBA2D515A59004800B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		266F6CBB2D515A59004800B7 /* DepartmentsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsDetailsView.swift; sourceTree = "<group>"; };
 		266F6CBC2D515A59004800B7 /* GroceryFlyersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryFlyersApp.swift; sourceTree = "<group>"; };
 		266F6CC62D515D9E004800B7 /* DepartmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsListView.swift; sourceTree = "<group>"; };
 		266F6CC82D53B2B8004800B7 /* Flyers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyers.swift; sourceTree = "<group>"; };
+		266F6CCA2D53B84B004800B7 /* DepartmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				266F6CC62D515D9E004800B7 /* DepartmentsListView.swift */,
-				266F6CBB2D515A59004800B7 /* DepartmentsDetailsView.swift */,
+				266F6CCA2D53B84B004800B7 /* DepartmentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,8 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				266F6CC92D53B2B8004800B7 /* Flyers.swift in Sources */,
-				266F6CC02D515A59004800B7 /* DepartmentsDetailsView.swift in Sources */,
 				266F6CC72D515D9E004800B7 /* DepartmentsListView.swift in Sources */,
+				266F6CCB2D53B84B004800B7 /* DepartmentDetailView.swift in Sources */,
 				266F6CC12D515A59004800B7 /* GroceryFlyersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
