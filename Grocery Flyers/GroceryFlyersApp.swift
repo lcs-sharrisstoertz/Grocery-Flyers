@@ -7,3 +7,11 @@
 
 import SwiftUI
 
+@main
+struct GroceryFlyersApp: App {
+    var body: some Scene {
+        WindowGroup {
+            DepartmentsListView()
+        }
+    }
+}
