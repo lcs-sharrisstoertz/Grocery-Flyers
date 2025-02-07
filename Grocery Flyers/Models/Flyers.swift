@@ -34,11 +34,11 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Sirloin Tip Oven Roasts",
-                    image: "sirloin-tips"
+                    image: "Sirloin"
                 ),
                 FoodItem(
                     name: "Porkloin Back Ribs",
-                    image: "porkloin-back-ribs"
+                    image: "Ribs"
                 ),
             ]
         ),
@@ -48,15 +48,15 @@ let thisWeeksFlyer = Flyer(
             items: [
                 FoodItem(
                     name: "Wild Pacific Halibut Fillets",
-                    image: "wild-pacific-halibut-fillets"
+                    image: "Halibut"
                 ),
                 FoodItem(
                     name: "Wild Sockeye Salmon Fillets",
-                    image: "wild-sockeye-salmon-fillets"
+                    image: "Salmon"
                 ),
                 FoodItem(
                     name: "Clam Chowder",
-                    image: "clam-chowder"
+                    image: "ClamChowder"
                 ),
             ]
         ),

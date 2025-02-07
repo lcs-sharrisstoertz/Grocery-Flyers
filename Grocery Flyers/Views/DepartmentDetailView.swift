@@ -16,6 +16,7 @@ struct DepartmentDetailView: View {
     var body: some View {
         List(departmentToShow.items) { currentFoodItem in
             Text(currentFoodItem.name)
+            Image(currentFoodItem.image)
         }
         .listStyle(.plain)
         .navigationTitle(departmentToShow.name)
