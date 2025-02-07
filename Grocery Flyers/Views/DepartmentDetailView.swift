@@ -17,6 +17,14 @@ struct DepartmentDetailView: View {
         List(departmentToShow.items) { currentFoodItem in
             Text(currentFoodItem.name)
             Image(currentFoodItem.image)
+                .overlay(alignment: .top) {
+                    Text(currentFoodItem.price)
+                        .font(.system(size: 50.0, weight: .bold, design: .default))
+                        .background(.white)
+                        .cornerRadius(15)
+                        .foregroundStyle(.red)
+                    .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 250))
+                }
         }
         .listStyle(.plain)
         .navigationTitle(departmentToShow.name)
