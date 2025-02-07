@@ -16,6 +16,7 @@ struct DepartmentDetailView: View {
     var body: some View {
         List(departmentToShow.items) { currentFoodItem in
             Text(currentFoodItem.name)
+                .font(.system(size: 20.0, weight: .semibold, design: .default))
             Image(currentFoodItem.image)
                 .overlay(alignment: .top) {
                     Text(currentFoodItem.price)
@@ -23,7 +24,7 @@ struct DepartmentDetailView: View {
                         .background(.white)
                         .cornerRadius(15)
                         .foregroundStyle(.red)
-                    .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 250))
+                        .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 250))
                 }
         }
         .listStyle(.plain)
